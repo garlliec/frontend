@@ -1,29 +1,26 @@
 h2 {
     text-align: center;
-    color:#4180ab;
-    font-family: 'Courier New';
-    
+    color: whitesmoke;
+    font-size: 230%;
+    font-family: "Rubik Puddles", serif;
 }
 
-label {
-    color:  #4180ab;
-    
-}
+
 
 body {
-    background-color: #8ab3cf;
-    height: 100vh;
-    width: 100vw;
-    font-family: 'Courier New', Courier, monospace;
+    
+    background: linear-gradient(135deg,#4180ab, rgba(0, 0, 0, 0.267));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
 #container {
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 20px;
-    width: 30vw;
-    height: 30vh;
-    background-color:  #bdd1de;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5)
+    width: 35vw;
+    height: 45vh;
+    background-color:  #bdd1de70;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5)
     
 }
 
@@ -35,12 +32,56 @@ main {
    
 }
 
-#usuario,
-#senha{
-
-  width: 90%;
-  padding: 10px;
-  border-radius: 4px;
+input{
+  padding: 5px;
+  border-radius: 10px;
   border: 0px;
+  background: #e4ebf081;
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-family: "Coiny", serif;
 
 }
+
+form{
+    color:  whitesmoke;
+    display: flex; /* Cada label ocupa uma linha */
+    flex-direction: column;
+    font-family: "Coiny", serif;
+    font-size: 130%;
+   
+}
+
+button {
+    padding: 10px;
+    background-color: hsla(204, 45%, 46%, 0.788);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-family: "Coiny", serif;
+    font-size: 100%;
+    
+}
+
+button:hover {
+    background-color:  hsla(204, 56%, 53%, 0.788);
+}
+
+label:hover{
+    color: slategray;
+}
+
+.rubik-puddles-regular {
+    font-family: "Rubik Puddles", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .coiny-regular {
+    font-family: "Coiny", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
