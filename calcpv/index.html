@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcvida.css">
+    
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Special+Elite&display=swap');
+            </style>
+
+</head>
+<body>
+
+    <header>
+    <main>
+        <div id="container">
+        <h2>Ordem Paranormal <br> Cálculo de Vida</h2>
+         <form id="myform"> 
+            <label>Nome do Personagem</label>
+            <input type="text" name="" id="nomep" placeholder="Kieza Kiiala"> 
+            <h3> Classe</h3>
+            <div id="classeops">
+            <label id="combas">Combatente </label>
+            <input type = "checkbox" id="combatente" name="opclasse" value="1">
+            
+            <label id="especias">Especialista</label>
+            <input type = "checkbox" id="especialista" name ="opclasse" value="2">
+
+            <label id="ocultas">Ocultista</label>
+            <input type = "checkbox" id="ocultista" name ="opclasse" value="3">
+        </div>
+            
+
+            <h3> NEX e Vig </h3>
+            <div id="nvcontainer">
+            <label for="niv">Nível (Nv 1 = NEX 5%)</label><br>
+            <input type = "number" id="niv">
+            <label for="vig">Vigor</label><br>
+            <input type = "number" id="vig">
+            </div>
+            
+            
+            
+
+            <button type="submit">Enviar</button>
+
+         </form>
+        </div>
+    </main>
+    </header>
+    <script src="calcvida.js"> </script>
+</body>
+</html>
