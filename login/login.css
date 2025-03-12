@@ -8,7 +8,7 @@ h2 {
 
 
 body {
-    display: flex;
+    
     background: linear-gradient(135deg,#4180ab, rgba(0, 0, 0, 0.267));
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
@@ -83,5 +83,5 @@ label:hover{
     font-weight: 400;
     font-style: normal;
   }
-  /* Oi isa :D
+  
   
