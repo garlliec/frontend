@@ -21,6 +21,10 @@ formulario.addEventListener('submit', function(event) {
   let nex = niv*5;
   let pvnex = 0;
 
+  if (nomep === "alex"){
+    alert("Feliz 8 meses de namoro vida!!! Eu te amo muito, você é minha estrelinha e eu sou muito feliz por ter você em minha vida! Você me faz feliz todos os dias e eu quero um dia dedicar mais que um easteregg bobo para você, quero dedicar um jogo inteiro!!");
+  };
+
   if (classe === 1){
    pvin = 20+vig;
    pvnex = 4+vig;

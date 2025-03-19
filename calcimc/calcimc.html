@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+    <link rel="stylesheet" href="calcimc.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h2>IMCalc</h2>
+        </div>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Calcule o IMC</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="principal">
+      <h2>Seja bem-vindo a página mais saudável da internet!</h2>
+      <h2>Vamos calcular o seu IMC!</h2>
+
+      <form id="formularioLogin">
+        <label for="peso">Digite o seu peso:</label>
+        <input
+          type="number"
+          id="peso"
+          placeholder="Digite seu peso"
+          required
+        />
+
+        <label for="altura">Digite sua altura</label>
+        <input
+          type="number"
+          id="altura"
+          placeholder="Digite sua altura"
+          required
+        />
+        <ul >
+        <li><button onclick="calcularIMCalert()">Calc Alerta</button></li>
+        <li><button onclick="calcularIMCconsole()">Calc Console</button></li>
+        <li><button onclick="calcularIMCtela(event)">Calc Tela</button></li>
+        </ul>
+
+        <div id="resultela"></div>
+    </main>
+
+    
+
+    <footer>
+      <p>
+        &copy; 2025 - Todos os direitos reservados. Aula de Desenvolvimento
+        FRONT-END.
+      </p>
+    </footer>
+    <script src="calcimc.js"></script>
+
+
+  </body>
+</html>
+
