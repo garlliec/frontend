@@ -3,9 +3,8 @@ h2 {
     color: whitesmoke;
     font-size: 230%;
     font-family: "Rubik Puddles", serif;
+
 }
-
-
 
 body {
     
@@ -20,7 +19,7 @@ body {
     width: 35vw;
     height: 45vh;
     background-color:  #bdd1de70;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5)
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
     
 }
 
@@ -52,7 +51,7 @@ form{
    
 }
 
-button {
+button {    
     padding: 10px;
     background-color: hsla(204, 45%, 46%, 0.788);
     color: white;

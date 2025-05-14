@@ -1,0 +1,140 @@
+
+/* cor preta fundo #121212
+para repartições #1E1E1E
+ROXO #A247FE */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: whitesmoke;
+  }
+  
+  header {
+    background-color: #121212;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    border-bottom-color: #A247FE;
+    border-bottom: 3px;
+    font-family: Girassol,sans-serif;
+  }
+  
+  main {
+    max-width: 600px;
+    min-height: calc(
+      100vh - 200px
+    ); /*60 header + 40 footer + 10*2 do padding header + 20 *2 do padding main + 20 * margin main = 200px*/
+    margin: 20px auto;
+    padding: 20px;
+    background: #1E1E1E;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    font-family: Girassol, sans-serif;
+  }
+  
+.oi{
+  color:#A247FE;
+}
+
+  #formulario {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #A247FE;
+  }
+  
+  button {
+    background-color: #A247FE;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  #bnt-add {
+    width: 83%;
+  }
+  
+  button:hover {
+    background-color: #A247FE;
+  }
+  
+  #lista-agentes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .agente {
+    background: #121212;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .agente h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    
+  }
+  
+  .agente p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
+    color: #A247FE;
+    height: 40px;
+    bottom: 0;
+    font-family: "Special Elite", system-ui;
+  }
+
+  .palavraroxa {
+    color: #A247FE;
+  }
+
+  
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.girassol-regular {
+  font-family: "Girassol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#destaquenome {
+  font-family: "Special Elite", system-ui;
+  margin: 0 0 5px;
+    font-size: 18px;
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentes</title>
+    <link rel="stylesheet" href="indexstyle.css" />
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Special+Elite&display=swap');
+        </style>
+
+    
+</head>
+<body>
+    <header>
+        <h1>Agentes</h1>
+    </header>
+    <hr id="linharoxa" color="#A247FE">
+    <main>
+        <section id="formulario">
+            <h2>Adicionar Agentes</h2>
+            <input type="text" id="nomepe" placeholder="Arthur Cervero" />
+            <input type="text" id="nomepla" placeholder="Guaxinim" />
+            <input type="text" id="classep" placeholder="Especialista" />
+            
+            <button onclick="adicionarAgente()" id="btn-add">Adicionar</button>
+        </section>
+
+        <hr id="linharoxa" color="#A247FE">
+
+        <section id="catalogo">
+            <h2>Lista de Agentes</h2>
+            <div id="lista-agentes"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Personagens</p>
+    </footer>
+    <script src="indexcat.js"></script>
+</body>
+
+</html>
